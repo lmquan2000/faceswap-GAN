@@ -1,6 +1,7 @@
 from keras.models import Model
 from keras.layers import *
 from keras.optimizers import Adam
+from keras import regularizers
 from .nn_blocks import *
 from .losses import *
 
